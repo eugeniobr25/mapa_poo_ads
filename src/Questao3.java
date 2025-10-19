@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// Questão 3 – Herança
 
 public class Questao3 {
 
@@ -44,6 +44,7 @@ public class Questao3 {
             this.curso = curso;
         }
 
+        // Método criado para exibir os dados do Aluno
         @Override
         public void exibirDados() {
             System.out.println("-- Dados do Aluno --");
@@ -70,6 +71,7 @@ public class Questao3 {
             this.disciplina = disciplina;
         }
 
+        // Método criado para exibir os dados do Professor
         @Override
         public void exibirDados() {
             System.out.println("-- Dados do Professor --");
@@ -79,9 +81,14 @@ public class Questao3 {
     }
 
     public static void main(String[] args) {
+
+        //Criando objeto Aluno com meus dados
         Aluno aluno = new Aluno("Eugenio Brilhante Moraes Lima", "Análise e Desenvolvimento de Sistemas");
+
+        //Criando objeto Professor com dados fictícios
         Professor professor = new Professor("James Gosling", "Programação Orientada a Objetos");
 
+        // Exiba todos os atributos de ambos.
         // Exibindo os dados usando o método exibirDados
         System.out.println("-- Questão 3 – Herança --");
         System.out.println("-------------------------------------------------------------");

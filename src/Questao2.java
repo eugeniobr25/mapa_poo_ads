@@ -1,13 +1,13 @@
 // Questão 2 – Encapsulamento
-// Irá permitir entrada de dados via teclado para setar um novo nome e matrícula
 
+// Irá permitir entrada de dados via teclado para setar um novo nome e matrícula
 import java.util.Scanner;
 
 public class Questao2 {
 
-    // Classe AlunoEncapsulado representando um aluno com encapsulamento
     static class AlunoEncapsulado {
-        // Atributos privados (encapsulados)
+
+        // Modifique a classe Aluno para que os atributos sejam privados.
         private String nome;
         private String matricula;
 
@@ -17,6 +17,7 @@ public class Questao2 {
             this.matricula = matricula;
         }
 
+        // Crie getters e setters para acessar e alterar os dados.
         // Getter e Setter do atributo nome
         public String getNome() {
             return nome;
@@ -50,6 +51,7 @@ public class Questao2 {
         System.out.println("Matrícula: " + meuAluno.getMatricula());
         System.out.print("-------------------------------------------------------------");
 
+        // Alterando meu nome usando o setter e exibindo novamente usando o getter.
         // Solicitando novos dados ao usuário
         System.out.println("\nAltere o nome do aluno:");
         String novoNome = scanner.nextLine();

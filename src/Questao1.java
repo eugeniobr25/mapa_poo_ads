@@ -1,11 +1,11 @@
 // Questão 1 – Classe e Objeto
-// Criação de uma classe Aluno com atributos nome e matrícula e teste de criação de objeto
+
 
 public class Questao1 {
 
-    // Classe Aluno representando um aluno
+    // Criação de uma classe Aluno com atributos nome e matrícula e teste de criação de objeto
     static class Aluno {
-        // Atributos públicos (para simplificação nesta questão)
+
         String nome;
         String matricula;
 
@@ -17,6 +17,7 @@ public class Questao1 {
     }
 
     public static void main(String[] args) {
+
         // Criação de um objeto Aluno com dados próprios
         Aluno meuAluno = new Aluno("Eugenio Brilhante Moraes Lima", "1234567890");
 
