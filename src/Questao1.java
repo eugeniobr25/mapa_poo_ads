@@ -1,6 +1,5 @@
 // Questão 1 – Classe e Objeto
 
-
 public class Questao1 {
 
     // Criação de uma classe Aluno com atributos nome e matrícula e teste de criação de objeto
@@ -29,4 +28,3 @@ public class Questao1 {
         System.out.print("-------------------------------------------------------------");
     }
 }
-

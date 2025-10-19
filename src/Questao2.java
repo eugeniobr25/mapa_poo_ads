@@ -72,4 +72,3 @@ public class Questao2 {
         scanner.close();
     }
 }
-
